@@ -29,7 +29,7 @@ const Layout = () => {
                 <TabBarIcon icon={iconName} focused={focused}/>
             );
         }
-    })} sceneContainerStyle={{paddingTop: 50, paddingHorizontal: 15}}>
+    })} sceneContainerStyle={{paddingTop: 35}}>
         <Tabs.Screen name='Home'/>
         <Tabs.Screen name='TodaysTask'/>
         <Tabs.Screen name='AddProject'/>
@@ -52,6 +52,6 @@ const stytes = StyleSheet.create({
         elevation: 0,
         borderTopWidth: 0,
         shadowOpacity: 0,
-        paddingHorizontal: 15
+        paddingHorizontal: 15,
     }
 })
